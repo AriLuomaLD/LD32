@@ -5,9 +5,42 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
-  <backgrounds name="background"/>
+  <sprites name="sprites">
+    <sprite>sprites\spr_solid</sprite>
+    <sprite>sprites\spr_background</sprite>
+    <sprite>sprites\spr_door</sprite>
+    <sprite>sprites\spr_cursor_nock</sprite>
+    <sprite>sprites\spr_cursor_arrow</sprite>
+    <sprite>sprites\spr_mouse</sprite>
+    <sprite>sprites\spr_mouse_trap</sprite>
+    <sprites name="Player">
+      <sprite>sprites\spr_player_up</sprite>
+      <sprite>sprites\spr_player_down</sprite>
+      <sprite>sprites\spr_player_side</sprite>
+    </sprites>
+    <sprite>sprites\spr_room_1</sprite>
+  </sprites>
+  <backgrounds name="background">
+    <background>background\bg_corridor</background>
+    <background>background\bg_sky</background>
+  </backgrounds>
   <paths name="paths"/>
+  <scripts name="scripts"/>
+  <objects name="objects">
+    <object>objects\obj_solid</object>
+    <object>objects\obj_player</object>
+    <object>objects\obj_corridor</object>
+    <object>objects\obj_door</object>
+    <object>objects\obj_cursor</object>
+    <object>objects\obj_mouse</object>
+    <object>objects\obj_mouse_trap</object>
+    <object>objects\obj_room_1</object>
+    <object>objects\obj_room_2</object>
+    <object>objects\obj_camera</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\room1</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
