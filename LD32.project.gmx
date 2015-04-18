@@ -35,8 +35,16 @@
     <object>objects\obj_mouse</object>
     <object>objects\obj_mouse_trap</object>
     <object>objects\obj_room_1</object>
-    <object>objects\obj_room_2</object>
     <object>objects\obj_camera</object>
+    <object>objects\obj_room</object>
+    <object>objects\obj_room_1_out_spawn</object>
+    <object>objects\obj_room_2_out_spawn</object>
+    <object>objects\obj_room_3_out_spawn</object>
+    <object>objects\obj_room_4_out_spawn</object>
+    <object>objects\obj_room_1_in_spawn</object>
+    <object>objects\obj_room_2_in_spawn</object>
+    <object>objects\obj_room_4_in_spawn</object>
+    <object>objects\obj_room_3_in_spawn</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room1</room>

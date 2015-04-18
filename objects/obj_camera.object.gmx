@@ -68,6 +68,137 @@ else if(obj_player.x &lt; view_xview[0])
 {
     view_xview[0] = 0;
 }
+
+if(obj_player.x &lt; view_xview[0] + view_hview[0])
+{
+    switch(global.current_room)
+    {
+        case 0:
+            obj_player.x = obj_room_1_out_spawn.x;
+            obj_player.y = obj_room_1_out_spawn.y;
+            view_xview[0] = corridor_1_x;
+            view_yview[0] = corridor_1_y;
+            break;
+        case 1:
+            obj_player.x = obj_room_2_out_spawn.x;
+            obj_player.y = obj_room_2_out_spawn.y;
+            view_xview[0] = corridor_1_x;
+            view_yview[0] = corridor_1_y;
+            break;
+        case 2:
+            obj_player.x = obj_room_3_out_spawn.x;
+            obj_player.y = obj_room_3_out_spawn.y;
+            view_xview[0] = corridor_2_x;
+            view_yview[0] = corridor_2_y;
+            break;
+        case 3:
+            obj_player.x = obj_room_4_out_spawn.x;
+            obj_player.y = obj_room_4_out_spawn.y;
+            view_xview[0] = corridor_2_x;
+            view_yview[0] = corridor_2_y;
+            break;
+    }
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="7" enumb="13">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Go to room 1
+view_xview[0] = room_4_x;
+view_yview[0] = room_4_y;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="7" enumb="12">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Go to room 1
+view_xview[0] = room_3_x;
+view_yview[0] = room_3_y;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="7" enumb="11">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Go to room 1
+view_xview[0] = room_2_x;
+view_yview[0] = room_2_y;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="7" enumb="10">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>///Go to room 1
+view_xview[0] = room_1_x;
+view_yview[0] = room_1_y;
 </string>
           </argument>
         </arguments>

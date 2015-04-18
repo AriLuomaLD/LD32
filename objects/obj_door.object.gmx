@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>room_door = 0;
+            <string>room_door = -1;
 </string>
           </argument>
         </arguments>
